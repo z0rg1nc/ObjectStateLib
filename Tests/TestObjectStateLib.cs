@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BtmI2p.ObjectStateLib;
 using Xunit;
 
-namespace BtmI2p.TestObjectStateLibNs
+namespace BtmI2p.ObjectStateLib.Tests
 {
     public class TestObjectStateLibFixture : IDisposable
     {

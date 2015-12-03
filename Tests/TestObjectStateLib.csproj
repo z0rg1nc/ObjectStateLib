@@ -8,11 +8,10 @@
     <ProjectGuid>{4298E9C1-A775-49E2-92B6-A50E4D601F02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ObjectStateLib</RootNamespace>
+    <RootNamespace>BtmI2p.ObjectStateLib.Tests</RootNamespace>
     <AssemblyName>TestObjectStateLib</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    
     <RestorePackages>true</RestorePackages>
     <TargetFrameworkProfile />
   </PropertyGroup>
