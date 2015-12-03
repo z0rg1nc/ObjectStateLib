@@ -1,23 +1,17 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Reactive;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Reactive.Threading.Tasks;
 using System.Runtime.CompilerServices;
-using System.Runtime.ExceptionServices;
-using System.Runtime.Serialization;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using BtmI2p.MiscUtils;
-using JetBrains.Annotations;
 using NLog;
 
-namespace ObjectStateLib
+namespace BtmI2p.ObjectStateLib
 {
     public class WrongDisposableObjectStateException : Exception
     {
@@ -30,7 +24,7 @@ namespace ObjectStateLib
         Disposing,
         Disposed
     }
-    public partial class DisposableObjectStateHelper : IMyAsyncDisposable
+    public class DisposableObjectStateHelper : IMyAsyncDisposable
     {
         public DisposableObjectStateHelper(
             string stateHelperId = ""

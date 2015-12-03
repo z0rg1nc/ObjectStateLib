@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using ObjectStateLib;
+using BtmI2p.ObjectStateLib;
 using Xunit;
 
 namespace BtmI2p.TestObjectStateLibNs
